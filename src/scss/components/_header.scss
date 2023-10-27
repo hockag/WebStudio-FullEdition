@@ -1,0 +1,87 @@
+.header {
+  z-index: 100;
+  background: $white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__left {
+    display: flex;
+    justify-content: space-between;
+    width: 520px;
+    align-items: center;
+    margin-top: 24px;
+  }
+
+  &__left h2 {
+    color: $blue;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+  }
+
+  &__left span {
+    color: $total-black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.78px;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  &__item a {
+    color: $black-with-grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+    transition: 0.25s;
+  }
+
+  &__item a:hover {
+    color: $blue;
+  }
+
+  &__right {
+    display: flex;
+    gap: 30px;
+    margin-top: 32px;
+  }
+
+  &__right a {
+    color: $grey;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+  }
+
+  &__right i {
+    padding-right: 10px;
+  }
+
+  &__right a:hover {
+    color: $blue;
+  }
+}
