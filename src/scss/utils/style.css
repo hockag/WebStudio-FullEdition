@@ -23,6 +23,10 @@ p {
   padding: 0;
 }
 
+body {
+  font-family: Roboto;
+}
+
 .header {
   z-index: 100;
   background: #FFF;
@@ -86,7 +90,6 @@ p {
 }
 .header__right a {
   color: #757575;
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
@@ -110,6 +113,49 @@ p {
   background: rgba(47, 48, 58, 0.4);
   height: 600px;
   width: 100%;
+}
+.business__main--title {
+  color: #FFF;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 2.64px;
+  text-transform: uppercase;
+  padding-top: 200px;
+}
+.business__button {
+  width: 216px;
+  height: 50px;
+  border-radius: 4px;
+  background: #2196F3;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  border: none;
+  outline: none;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 30px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.business__button {
+  color: #FFF;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.96px;
+}
+.business__button:hover {
+  transform: translateY(5px);
+}
+.business__button:active {
+  transform: translateY(2px);
 }
 
 /*# sourceMappingURL=style.css.map */

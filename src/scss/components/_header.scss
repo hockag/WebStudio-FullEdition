@@ -68,13 +68,7 @@
   }
 
   &__right a {
-    color: $grey;
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    letter-spacing: 0.28px;
+    @include text(14px, 500, 0.28px)
   }
 
   &__right i {

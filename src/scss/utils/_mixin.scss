@@ -1,0 +1,8 @@
+@mixin text ($size, $weight, $space) {
+  color: $grey;
+  font-size: $size;
+  font-style: normal;
+  font-weight: $weight;
+  line-height: normal;
+  letter-spacing: $space;
+}
