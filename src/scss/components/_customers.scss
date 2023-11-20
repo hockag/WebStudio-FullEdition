@@ -1,0 +1,25 @@
+.customers__main-title {
+  @extend %main-title;
+  margin-top: 190px;
+}
+
+.customers__list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.customers__item {
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid $light-white;
+  position: relative;
+}
+
+.customers__item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

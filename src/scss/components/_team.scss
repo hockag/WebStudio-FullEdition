@@ -1,0 +1,64 @@
+.team {
+  background: $dark-white;
+  height: 708px;
+}
+
+.team__main-title {
+  @extend %main-title;
+  margin-top: 190px;
+}
+
+.team__list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+
+.team__item {
+  width: 270px;
+  height: 428px;
+  border-radius: 0 0 4px 4px;
+  background: $white;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.20), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.team__item h4 {
+  @extend %social-team-name
+}
+
+.team__item h5 {
+  @extend %social-team-info
+}
+
+.team__social-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 16px;
+}
+
+.team__social-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  position: relative;
+}
+
+.team__social-item a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 23px;
+  transform: translate(-50%, -50%);
+}
+
+.team__social-item:hover {
+  background: $blue;
+}
+
+.team__social-item a:hover {
+  color: $white;
+  background: $blue;
+}
