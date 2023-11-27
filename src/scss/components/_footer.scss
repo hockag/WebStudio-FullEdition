@@ -1,0 +1,130 @@
+.footer {
+  width: 100%;
+  height: 255px;
+  background: $dark-black;
+  margin-top: 95px;
+  padding: 60px;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+  }
+}
+
+.block__one h2 {
+  color: $blue;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.78px;
+
+  & span {
+    color: #FFF;
+  }
+}
+
+.block__one-text a {
+  color: #FFF;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+.block__one-subtext a {
+  color: rgba(255, 255, 255, 0.60);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+.block__one-subtext {
+  padding-top: 9px;
+}
+
+.block__one-text {
+  padding-top: 20px;
+}
+
+.block__two-list {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  padding-top: 20px;
+}
+
+.block__two-item {
+  padding-right: 10px;
+}
+
+.block__two-item i {
+  font-weight: 400;
+}
+
+.block__two-item a {
+  color: $white;
+  transition: 0.25s;
+}
+
+.block__two-title {
+  @extend %footer-text
+}
+
+.block__two-elipse {
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.10);
+  width: 44px;
+  height: 44px;
+  position: relative;
+  transition: 0.25s;
+
+  & a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.block__two-elipse:hover {
+  background: $blue;
+}
+.block__two-item a:hover {
+  color: $white;
+}
+
+.block__three-title {
+  @extend %footer-text
+}
+
+.block__three-input {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.30);
+  background: rgba(33, 150, 243, 0.00);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  outline: none;
+  color: $white;
+  margin-top: 20px;
+}
+
+.block__three-button {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background: $blue;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  outline: none;
+  border: none;
+  color: $white;
+  cursor: pointer;
+}

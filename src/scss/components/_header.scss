@@ -97,4 +97,27 @@
   &__right a:hover {
     color: $blue;
   }
+
+  @media screen and (max-width: 992px) {
+    .container {
+      min-width: 960px;
+    }
+
+    .header__right {
+      flex-direction: column;
+      gap: 0;
+      margin: 0;
+      align-self: end;
+      padding-right: 15px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .container {
+      min-width: 720px;
+      margin: 0 auto;
+    }
+  }
+  
+
 }

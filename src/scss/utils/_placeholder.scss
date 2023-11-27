@@ -32,3 +32,14 @@
   letter-spacing: 0.48px;
   padding-top: 10px;
 }
+
+%footer-text {
+  color: $white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+}
