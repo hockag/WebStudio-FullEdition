@@ -42,3 +42,21 @@
   margin: 100px 0 0 0;
   padding: 0;
 }
+
+
+@media screen and (max-width: 992px) {
+  .about_list {
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .about_list {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+  }
+}

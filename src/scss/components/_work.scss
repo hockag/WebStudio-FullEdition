@@ -44,5 +44,16 @@
   transform: translateX(10px) translateY(10px);
 }
 
+@media screen and (max-width: 992px) {
+  .work__list {
+    flex-wrap: wrap;
+    width: 95%;
+    margin: 0 auto;
+  }
+}
 
-
+@media screen and (max-width: 768px) {
+  .work {
+    display: none;
+  }
+}

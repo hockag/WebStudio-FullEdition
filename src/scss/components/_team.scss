@@ -62,3 +62,30 @@
   color: $white;
   background: $blue;
 }
+
+
+@media screen and (max-width: 992px) {
+  .team {
+    height: 850px;
+  }
+
+  .team__list {
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .team__list {
+    flex-wrap: nowrap;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .team {
+    height: 1860px;
+  }
+}

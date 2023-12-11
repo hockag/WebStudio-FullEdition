@@ -23,3 +23,21 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 992px) {
+  .customers__list {
+    flex-wrap: wrap;
+    width: 62%;
+    margin: 0 auto;
+    gap: 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .customers__list {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+  }
+}
