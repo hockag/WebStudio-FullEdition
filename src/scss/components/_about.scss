@@ -61,6 +61,16 @@
   }
 }
 
+@media screen and (max-width: 425px) {
+  .about_item {
+    text-align: center;
+  }
+
+  .about_list {
+    margin-top: 50px;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .about_item {
     text-align: center;
