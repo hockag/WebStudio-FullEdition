@@ -185,3 +185,31 @@
     width: 98%;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .footer {
+    height: 550px;
+  }
+
+  .footer__wrapper {
+    justify-content: center;
+  }
+
+  .block__three-input {
+    width: 250px;
+    margin: 20px 0 auto;
+  }
+
+  .block__two-list {
+    width: auto;
+  }
+
+  .block__two {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .block__one {
+    text-align: center;
+  }
+}

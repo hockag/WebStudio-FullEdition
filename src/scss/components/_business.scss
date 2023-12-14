@@ -58,3 +58,10 @@
     transform: translateY(2px);
   }
 }
+
+@media screen and (max-width: 320px) {
+  .business__main--title {
+    font-size: 22px;
+    line-height: 35px;
+  }
+}

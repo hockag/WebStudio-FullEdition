@@ -60,3 +60,13 @@
     align-items: center;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .about_item {
+    text-align: center;
+  }
+
+  .about_list {
+    margin-top: 50px;
+  }
+}
