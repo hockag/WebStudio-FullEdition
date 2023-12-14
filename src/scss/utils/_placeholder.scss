@@ -43,3 +43,23 @@
   letter-spacing: 0.42px;
   text-transform: uppercase;
 }
+
+%card__first-title {
+  color: $black-with-grey;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.08px;
+}
+
+%card__second-title {
+  color: $grey;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.48px;
+}
