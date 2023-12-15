@@ -169,3 +169,31 @@
   top: 25px;
   left: 10px;
 }
+
+
+@media screen and (max-width: 576px) {
+  .modal_window {
+    width: 390px;
+  }
+
+  .modal_form input {
+    width: 315px;
+    padding-left: 30px;
+  }
+
+  .modal_area {
+    width: 315px;
+  }
+
+  .check_box-wrapper {
+    width: auto;
+  }
+
+  .check_box h4 {
+    font-size: 12px;
+  }
+
+  .check_box span a {
+    font-size: 13px;
+  }
+}
