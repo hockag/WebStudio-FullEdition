@@ -46,7 +46,45 @@
         <div class="business__overlay">
             <div class="container">
                 <h2 class="business__main--title">Ефективні рішення для <br> вашого бізнесу</h2>
-                <button class="business__button">Замовити послугу</button>
+                <button class="business__button" data-open-modal>Замовити послугу</button>
+                <div class="backdrop_modal is-hidden_modal" data-modal>
+                    <div class="modal_window">
+                        <h3 class="modal_window__title">Залиште свої дані, ми вам передзвонимо</h3>
+                        <form class="modal_form">
+                            <div class="back_photo_input">
+                                <h5>Ім'я</h5>
+                                <i class="fa-solid fa-user"></i>
+                                <input type="text" name="name">
+                            </div>
+                            <div class="back_photo_input">
+                                <h5>Телефон</h5>
+                                <i class="fa-solid fa-phone"></i>
+                                <input type="text" name="phone" >
+                            </div>
+                            <div class="back_photo_input">
+                                <h5>Пошта</h5>
+                                <i class="fa-solid fa-envelope"></i>
+                                <input type="text" name="mail" >
+                            </div>
+                            <h5>Коментар</h5>
+                            <textarea class="modal_area" name="message">Введіть текст</textarea>
+                        </form>
+                        <div class="check_box">
+                            <div class="check_box-wrapper">
+                                <input type="checkbox" name="text">
+                                <h4>Погоджуюся з розсилкою та приймаю
+                                    <span>
+                                        <a href="#">Умови договору</a>
+                                    </span>
+                                </h4>
+                            </div>
+                        </div>
+                        <button class="modal_button">Відправити</button>
+                        <button class="btn_modal btn_close_modal" data-close-modal>
+                            <span> &times </span>
+                        </button>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -269,5 +307,6 @@
     </footer>
     <script src="https://kit.fontawesome.com/6f7c0d1b60.js" crossorigin="anonymous"></script>
     <script src="src/js/burger_menu.js"></script>
+    <script src="src/js/modal.js"></script>
 </body>
 </html>
