@@ -10,18 +10,30 @@
 }
 
 .customers__item {
-  width: 170px;
-  height: 92px;
-  border-radius: 4px;
-  border: 1px solid $light-white;
   position: relative;
 }
 
-.customers__item img {
+.customers__item svg {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.customers__item a {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid $light-white;
+}
+
+.customers__item a:hover {
+  border-color: $blue;
+}
+
+.customers__item a:hover path {
+  fill: $blue;
 }
 
 @media screen and (max-width: 992px) {

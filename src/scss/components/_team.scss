@@ -5,7 +5,7 @@
 
 .team__main-title {
   @extend %main-title;
-  margin-top: 190px;
+  padding: 94px 0;
 }
 
 .team__list {
@@ -34,7 +34,7 @@
   display: flex;
   justify-content: space-between;
   gap: 10px;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
   padding-top: 16px;
 }
@@ -47,6 +47,7 @@
 }
 
 .team__social-item a {
+  color: $light-white;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -66,7 +67,7 @@
 
 @media screen and (max-width: 992px) {
   .team {
-    height: 850px;
+    height: 200vh;
   }
 
   .team__list {

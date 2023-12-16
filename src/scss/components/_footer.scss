@@ -67,6 +67,7 @@
 
 .block__two-item i {
   font-weight: 400;
+  font-size: 20px;
 }
 
 .block__two-item a {
@@ -77,6 +78,7 @@
 .block__two-title {
   @extend %footer-text
 }
+
 
 .block__two-elipse {
   border-radius: 100%;
