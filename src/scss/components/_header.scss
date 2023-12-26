@@ -151,9 +151,6 @@
   }
 
   @media screen and (max-width: 992px) {
-    .container {
-      min-width: 960px;
-    }
 
     .header__right {
       flex-direction: column;
@@ -174,20 +171,12 @@
       margin: 0 auto;
     }
 
-    .header__left {
-      width: 75%;
-    }
-
     .header__block {
       justify-content: normal;
     }
   }
 
   @media screen and (max-width: 576px) {
-    .container {
-      min-width: 540px;
-      margin: 0 auto;
-    }
     .burger-menu {
       display: flex;
       margin: 20px 20px 0 0;
