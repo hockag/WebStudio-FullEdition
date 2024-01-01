@@ -1,6 +1,7 @@
 .team {
   background: $dark-white;
   height: 708px;
+  margin-top: 95px;
 }
 
 .team__main-title {
@@ -75,6 +76,26 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .team {
+    height: 1440px;
+  }
+
+  .team__list {
+    width: auto;
+  }
+
+  .team__item {
+    width: 354px;
+    height: 536px;
+
+    & img {
+      width: 354px;
+      height: 374px;
+    }
+  }
+}
+
 @media screen and (max-width: 576px) {
   .team__list {
     flex-wrap: nowrap;
@@ -84,12 +105,29 @@
   }
 
   .team {
-    height: 1860px;
+    height: 2190px;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .team {
+    height: 2761px;
+  }
+
+  .team__item {
+    width: 100%;
+    height: 622px;
+
+    & img {
+      width: 100%;
+      height: 460px;
+    }
   }
 }
 
 @media screen and (max-width: 320px) {
   .team {
-    height: 1935px;
+    height: 2761px;
   }
 }

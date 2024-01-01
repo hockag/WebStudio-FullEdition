@@ -45,11 +45,19 @@
   }
 }
 
+
 @media screen and (max-width: 576px) {
   .customers__list {
     flex-wrap: nowrap;
     flex-direction: column;
     width: auto;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .customers__list {
+    flex-wrap: wrap;
+    flex-direction: row;
   }
 }
