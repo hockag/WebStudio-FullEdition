@@ -156,14 +156,6 @@
     justify-content: center;
     align-items: baseline;
   }
-
-  .block__three-title {
-    padding-right: 20px;
-  }
-
-  .block__three-input {
-    margin-right: 10px;
-  }
 }
 
 @media screen and (max-width: 768px) {
@@ -175,12 +167,15 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
-    margin: 0 auto;
+    margin: 60px 0 0 12%;
   }
 
   .block__three-button {
     margin-top: 20px;
+  }
+
+  .block__three-input {
+    width: 450px;
   }
 }
 
@@ -226,6 +221,12 @@
 
   .block__one {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .block__three-input {
+    width: 340px;
   }
 }
 
