@@ -45,7 +45,12 @@
   width: 370px;
   height: 404px;
   border: 1px solid #EEE;
-  background: $white;
+  background: #FFF;
+}
+
+.card__item:hover {
+  border: 1px solid #EEE;
+  background: #FFF;
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -70,6 +75,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .card__item {
+    width: 354px;
+  }
+}
+
 @media screen and (max-width: 576px) {
 
 }
@@ -78,6 +89,7 @@
   .main-button__list {
     flex-wrap: wrap;
     width: 320px;
+    justify-content: start;
   }
 }
 

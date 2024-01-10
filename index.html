@@ -25,7 +25,7 @@
                     <nav class="header__nav">
                         <ul class="header__list">
                             <li class="header__item">
-                                <a href="#">Студія</a>
+                                <a href="./index.html">Студія</a>
                             </li>
                             <li class="header__item">
                                 <a href="./portfolio.html">Портфоліо</a>
@@ -40,6 +40,12 @@
                     <a href="mailto:info@devstudio.com"><i class="fa-regular fa-envelope fa-bounce"></i>info@devstudio.com</a>
                     <a href="tel:+380961111111"><i class="fa-solid fa-mobile-screen fa-beat-fade"></i>+38 096 111 11 11</a>
                 </div>
+                <div class="social-link">
+                    <a href="#">Instagram</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">Linkedin</a>
+                </div>
                 <div class="burger-menu">
                     <span></span>
                 </div>
@@ -47,6 +53,12 @@
         </div>
     </header>
     <section class="business">
+        <picture>
+            <source srcset="src/img/background-desk-1x.png 1x, src/img/background-desk-2x.png 2x" media="(min-width:1200px)">
+            <source srcset="src/img/background-table-1x.png 1x, src/img/background-table-2x.png 2x" media="(max-width:767px)">
+            <source srcset="src/img/background-mobile-1x.png 1x, src/img/background-mobile-2x.png 2x" media="(min-width:768px)">
+            <img class="business__background" src="src/img/background-desk-1x.png" alt="background">
+        </picture>
         <div class="business__overlay">
             <div class="container">
                 <h2 class="business__main--title">Ефективні рішення для <br> вашого бізнесу</h2>
@@ -162,7 +174,12 @@
             <h2 class="team__main-title">Наша команда</h2>
             <ul class="team__list">
                 <li class="team__item">
-                    <img src="./src/img/Photo.png" alt="img">
+                    <picture>
+                        <source srcset="src/img/igor-desk.png 1x, src/img/2x-igor-desk.png 2x" media="(min-width:1200px)">
+                        <source srcset="src/img/1x-igor-mobile.png 1x, src/img/2x-igor-mobile.png 2x" media="(max-width:767px)">
+                        <source srcset="src/img/1x-igor-tablet.png 1x, src/img/2x-igor-tablet.png 2x" media="(min-width:768px)">
+                        <img src="./src/img/igor-desk.png" alt="img">
+                    </picture>
                     <h4>Ігор Дем'яненко</h4>
                     <h5>Product Designer</h5>
                     <ul class="team__social-list">
@@ -181,7 +198,12 @@
                     </ul>
                 </li>
                 <li class="team__item">
-                    <img src="./src/img/photo-2.png" alt="img">
+                    <picture>
+                        <source srcset="src/img/olga-desk.png 1x, src/img/olga-desk-2x.png" media="(min-width:1200px)">
+                        <source srcset="src/img/olga-table-1x.png 1x, src/img/olga-table-2x.png 2x" media="(max-width:767px)">
+                        <source srcset="src/img/olga-mobile-1x.png 1x, src/img/olga-mobile-2x.png 2x" media="(min-width:768px)">
+                        <img src="src/img/olga-desk.png" alt="olga">
+                    </picture>
                     <h4>Ольга Рєпіна</h4>
                     <h5>Frontend Developer</h5>
                     <ul class="team__social-list">
@@ -200,7 +222,12 @@
                     </ul>
                 </li>
                 <li class="team__item">
-                    <img src="./src/img/photo-3.png" alt="photo">
+                    <picture>
+                        <source srcset="src/img/mykola-desk-1x.png 1x, src/img/mykola-desk-2x.png 2x" media="(min-width:1200px)">
+                        <source srcset="src/img/mykola-table-1x.png 1x, src/img/mykola-table-2x.png 2x" media="(max-width:767px)">
+                        <source srcset="src/img/mykola-mobile-1x.png 1x, src/img/mykola-mobile-2x.png 2x" media="(min-width:768px)">
+                        <img src="src/img/mykola-desk-1x.png" alt="mykola">
+                    </picture>
                     <h4>Микола Тарасов</h4>
                     <h5>Marketing</h5>
                     <ul class="team__social-list">
@@ -219,7 +246,12 @@
                     </ul>
                 </li>
                 <li class="team__item">
-                    <img src="./src/img/photo-4.png" alt="photo">
+                    <picture>
+                        <source srcset="src/img/myhailo-desk-1x.png 1x, src/img/myhailo-desk-2x.png 2x" media="(min-width:1200px)">
+                        <source srcset="src/img/myhailo-table-1x.png 1x, src/img/myhailo-table-2x.png 2x" media="(max-width:767px)">
+                        <source srcset="src/img/myhailo-mobile-1x.png 1x, src/img/myhailo-mobile-2x.png 2x" media="(min-width:768px)">
+                        <img src="src/img/myhailo-desk-1x.png" alt="myhailo">
+                    </picture>
                     <h4>Михайло Єрмаков</h4>
                     <h5>UI Designer</h5>
                     <ul class="team__social-list">
