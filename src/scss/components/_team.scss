@@ -41,28 +41,30 @@
 }
 
 .team__social-item {
-  width: 44px;
-  height: 44px;
-  border-radius: 100%;
   position: relative;
-}
 
-.team__social-item a {
-  color: $light-white;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 23px;
-  transform: translate(-50%, -50%);
-}
+  & a {
+    display: block;
+    color: $light-white;
+    position: relative;
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
 
+    & svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      font-size: 23px;
+      transform: translate(-50%, -50%);
+    }
 
-.team__social-item a:hover {
-  color: $white;
-}
-
-.team__social-item:hover {
-  background: $blue;
+    &:hover,
+    &:hover path {
+      background-color: $blue;
+      fill: $white;
+    }
+  }
 }
 
 
