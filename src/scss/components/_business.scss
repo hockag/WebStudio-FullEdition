@@ -1,18 +1,47 @@
 .business {
   margin-top: 80px;
+  @media (min-width: 320px) {
+    background-image: url(../img/background-mobile-1x.png);
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background-image: url(../img/background-mobile-2x.png);
+      background-size: 100% 100%;
+    }
+  }
 
-  &__background {
-    width: 100%;
-    height: 600px;
+  @media (min-width: 768px) {
+    background-image: url(../img/background-table-1x.png);
+    background-size: 100% 100%;
+
+    background-repeat: no-repeat;
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background-image: url(../img/background-table-2x.png);
+    }
+  }
+  @media (min-width: 1200px) {
+    background-image: url(../img/background-desk-1x.png);
+    background-size: 100% 824px;
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+      background-image: url(../img/background-desk-2x.png);
+      display: flex;
+    }
   }
 
   &__overlay {
     background: rgba(47, 48, 58, 0.40);
-    height: 600px;
     width: 100%;
-    position: absolute;
-    top: 0;
-    margin-top: 80px;
+    padding: 118px 0;
+    @media screen and (min-width: 1200px) {
+      padding: 200px 0;
+    }
   }
 
   &__main--title {
@@ -25,7 +54,6 @@
     line-height: 60px;
     letter-spacing: 2.64px;
     text-transform: uppercase;
-    padding-top: 200px;
   }
 
   &__button {
