@@ -14,10 +14,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="src/scss/style.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" data-aos="fade-down">
         <div class="container">
             <div class="header__block">
                 <div class="header__left">
@@ -52,7 +53,7 @@
             </div>
         </div>
     </header>
-    <section class="business">
+    <section class="business" data-aos="fade-down">
         <div class="business__overlay">
             <div class="container">
                 <h2 class="business__main--title">Ефективні рішення для <br> вашого бізнесу</h2>
@@ -98,7 +99,7 @@
             </div>
         </div>
     </section>
-    <section class="about">
+    <section class="about" <div data-aos="fade-right"></div>>
         <div class="container">
             <ul class="about_list">
                 <li class="about_item">
@@ -132,7 +133,7 @@
             </ul>
         </div>
     </section>
-    <section class="work">
+    <section class="work" <div data-aos="fade-up"></div>>
         <div class="container">
             <h2 class="work__main-title">Чим ми займаємося</h2>
             <ul class="work__list">
@@ -163,7 +164,7 @@
             </ul>
         </div>
     </section>
-    <section class="team">
+    <section class="team" data-aos="fade-left">
         <div class="container">
             <h2 class="team__main-title">Наша команда</h2>
             <ul class="team__list">
@@ -458,7 +459,7 @@
             </ul>
         </div>
     </section>
-    <section class="customers">
+    <section class="customers" data-aos="fade-left">
         <div class="container">
             <h2 class="customers__main-title">Постійні клієнти</h2>
             <ul class="customers__list">
@@ -566,7 +567,7 @@
             </ul>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" data-aos="fade-up">
         <div class="container">
             <div class="footer__wrapper">
                 <div class="block__one">
@@ -613,5 +614,7 @@
     <script src="https://kit.fontawesome.com/6f7c0d1b60.js" crossorigin="anonymous"></script>
     <script src="src/js/burger_menu.js"></script>
     <script src="src/js/modal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>
