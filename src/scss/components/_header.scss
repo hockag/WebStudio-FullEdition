@@ -75,7 +75,7 @@
     transition: 0.2s;
   }
 
-    &__item a:hover::before {
+  &__item a:hover::before {
     width: 100%;
     transform: scaleX(1);
   }
@@ -258,7 +258,7 @@
     }
   }
 
-@media screen and (max-width: 320px) {
+  @media screen and (max-width: 320px) {
     .header__left {
       width: 30%;
     }
